@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben's Portfolio</title>
+    <!-- css page link -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- fontawesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Devicon CDN -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!--my icon-->     
+    <link rel="icon" sizes="32x32" href="/logo-no-background.png">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <i class="fa-sharp fa-solid fa-bars"></i>   
+        </label>
+        <!-- <label class="logo"><img class="myLogo" src="/logo-no-background.png" alt="myLogo">Benefits</label> -->
+        <a class="logo" href="#"><img class="myLogo" src="/logo-no-background.png" alt="myLogo">Benefits</a>
+        <ul>
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="text-center">
+          <h1 class="h1">Tafara Ben Jr Mawere</h1>
+          <p class="degree">Bachelor of Science in Information Technology <br /> student</p>
+        </div>
+    </section>
+
+    <!-- Sills section -->
+    <section class="skills" id="skills">
+        <div class="skills-header">
+            <h2 class="skill-head">Skills</h2>
+            <p>Continuously improving my skills and knowledge in the field.</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fa-solid fa-laptop-code fa-2xl"></i>
+                <h3>Fontend Development</h3>
+                <p>Proficient in HTML, CSS, and JavaScript. Experienced in responsive web design, building user-friendly interfaces, and using modern frameworks like ReactJS.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database fa-2xl"></i>
+                <h3>Backend Development</h3>
+                <p>Skilled in server-side programming using technologies like Node.js and Express. Experience working with databases such as MongoDB and MySQL.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-mobile-screen fa-2xl"></i>
+                <h3>Mobile App Development</h3>
+                <p>Proficient in developing mobile apps for iOS and Android using frameworks like React Native. Experienced in building engaging and intuitive mobile user interfaces.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-windows fa-2xl"></i>
+                <h3>Office Suit</h3>
+                <p>Proficient in developing mobile apps for iOS and Android using frameworks like React Native. Experienced in building engaging and intuitive mobile user interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-header">
+        <h2>Portfolio</h2>
+        <p>here are a collection of projects that I have worked on.</p>
+    </div>
+    <div class="portfolio-container">
+        <div class="project-card">
+            <div class="project">
+                <img src="/ticTactoe.JPG" alt="project1" class="project-img">
+                <div class="project-card-txt">
+                    <h4>Tic-Tac-Toe</h4>
+                    <p class="card-description">HTML/CSS/JavaScript <br><br>
+                    Play Tic-Tac_Toe againts the computer
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project">
+                <img src="/Quiz.JPG" alt="project1" class="project-img">
+                <div class="project-card-txt">
+                    <h4>Project Name</h4>
+                    <p class="card-description">HTML/CSS/JavaScript <br><br>
+                    some little description togive some more info</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project">
+                <img src="/portfolio2.jpeg" alt="project1" class="project-img">
+                <div class="project-card-txt">
+                    <h4>Project Name</h4>
+                    <p class="card-description">HTML/CSS/JavaScript <br><br>
+                        some little description togive some more info</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project">
+                <img src="/portfolio3.jpeg" alt="project1" class="project-img">
+                <div class="project-card-txt">
+                    <h4>Project Name</h4>
+                    <p class="card-description">HTML/CSS/JavaScript <br><br>
+                        some little description togive some more info</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- About section (skip for now) 
+    <section class="about">
+    </section>-->
+
+    <!-- CV section -->
+    <section class="cv" id="cv">
+    <div class="cv-header">
+        <h2>curriculum vitae</h2>
+        <p>The reason why you'd wanna hire me</p>
+    </div>
+    <div class="cv-container">
+        <div class="left-side">
+            <div class="cv-title">
+                <div class="imgBx">
+                    <img class="photo" src="/Tafara-image.jpeg" alt="myDp">
+                </div>
+                <br>
+                <h2> Tafara Ben Jr Mawere <br>
+                <span>Web Developer</span> </h2>
+            </div>
+            <div class="contactInfo">
+                <!-- Contact -->
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i></span>
+                        <span class="text">079-763-1038</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-inbox" aria-hidden="true"></i></span>
+                        <span class="text">tafaramawereb@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-github" aria-hidden="true"></i></span>
+                        <span class="text"><a href="https://github.com/Benefits2PointOh">Github</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text"><a href="www.linkedin.com/in/tafara-mawere-8172981b9">Linkedin</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i></span>
+                        <span class="text">Centurion, South Africa</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- School -->
+            <div class="contactInfo">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2021 - 2024</h5>
+                        <h4>Richfield College</h4>
+                        <h4>Bachelor of Science in Information Technology (BSc IT)</h4>
+                    </li>
+                    <li>
+                        <h5>2016</h5>
+                        <h4>Midstream College</h4>
+                        <h4>Highschool Diploma (bachelors pass)</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- lang -->
+            <div class="contactInfo">
+                <h3 class="title">Language proficiency</h3>
+                <ul>
+                    <li>
+                        <h4>English: bilingual proficiency</h4>
+                    </li>
+                    <li>
+                        <h4>Setswana: bilingual proficiency</h4>
+                    </li>
+                    <li>
+                        <h4>Sotho: Professional working proficiencyr</h4>
+                    </li>
+                    <li>
+                        <h4>Afrikaans: Professional working proficiency</h4>
+                    </li>
+                    <li>
+                        <h4>Xhosa: Limited working proficiency</h4>
+                    </li>
+                    <li>
+                        <h4>Isizulu: Limited working proficiency</h4>
+                    </li>
+                </ul>
+           
+            </div>     
+
+        </div>
+        <div class="right-side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <br> <br>Duis aute irure dolor in reprehenderit in 
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                    qui officia deserunt mollit anim id est laborum.
+                </p>
+                <br>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+
+                <div class="box">
+                    <div class="company">
+                        <h5>2022 - Present</h5>
+                        <h5>Independent Contractor</h5>
+                    </div>
+                    <div class="position">
+                        <h4>Tutor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Tempore ut cupiditate ex odio itaque exercitationem
+                          aspernatur sapiente illo consequatur dolore est, fuga 
+                          dolor quaerat, ratione at fugiat repellat rerum nihil!
+                        </p>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="company">
+                        <h5>2019 - 2020</h5>
+                        <h5>CRS Psychologists</h5>
+                    </div>
+                    <div class="position">
+                        <h4>Ad-hoc Receptionist</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Tempore ut cupiditate ex odio itaque exercitationem
+                          aspernatur sapiente illo consequatur dolore est, fuga 
+                          dolor quaerat, ratione at fugiat repellat rerum nihil!
+                        </p>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="company">
+                        <h5>2018 - 2020</h5>
+                        <h5>Radiance Coffee Corner</h5>
+                    </div>
+                    <div class="position">
+                        <h4>General Employee</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Tempore ut cupiditate ex odio itaque exercitationem
+                          aspernatur sapiente illo consequatur dolore est, fuga 
+                          dolor quaerat, ratione at fugiat repellat rerum nihil!
+                        </p>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="company">
+                        <h5>2017 - 2019</h5>
+                        <h5>Independent Contractor</h5>
+                    </div>
+                    <div class="position">
+                        <h4>Transport Driver</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Tempore ut cupiditate ex odio itaque exercitationem
+                          aspernatur sapiente illo consequatur dolore est, fuga 
+                          dolor quaerat, ratione at fugiat repellat rerum nihil!
+                        </p>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="company">
+                        <h5>2015 - 2016</h5>
+                        <h5>Truworths</h5>
+                    </div>
+                    <div class="position">
+                        <h4>Sales Consultant</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Tempore ut cupiditate ex odio itaque exercitationem
+                          aspernatur sapiente illo consequatur dolore est, fuga 
+                          dolor quaerat, ratione at fugiat repellat rerum nihil!
+                        </p>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+                <div class="about skills">
+                    <h2 class="title2">Professional Skills</h2>
+                    <ul>
+                        <li><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</li>
+                        <li><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></i> CSS</li>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><i class="fa-solid fa-database"></i> MySQL</li>
+                        <li><i class="devicon-cplusplus-plain"></i> C++</li>
+                        <li><i class="devicon-csharp-plain"></i>C#</li>
+                        <li><i class="devicon-visualbasic-plain"></i>Visual Basic</li>
+                        <li><i class="fa-brands fa-figma"></i>Figma</li>
+                        <li><i class="fa-brands fa-java"></i>Java</li>
+                        <li><i class="fa-brands fa-windows"></i>Microsoft Suit</li>
+                        <li><i class="fa-solid fa-computer"></i>Computer Aided Design</li>
+                        <li><i class="i devicon-androidstudio-plain"></i> Android Studio</li>
+                    </ul>
+                    <hr>
+                    <br>
+                </div>
+                
+                <div class="about interests">
+                    <h2 class="title2">Personal Interests</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-gamepad"></i>Gaming</li>
+                        <li><i class="fa-solid fa-music"></i>Music</li>
+                        <li><i class="fa-solid fa-basketball"></i>Basketball</li>
+                        <li><i class="fa-solid fa-book-open-reader"></i>Reading</li>
+                        <li><i class="fa-regular fa-face-grin-squint-tears"></i>Stand-uo Comedy</li>
+                        <li><i class="fa-solid fa-wrench"></i>Handy-work</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<script src="/script.js"></script>
+</body>
+</html>

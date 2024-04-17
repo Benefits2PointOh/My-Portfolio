@@ -99,6 +99,10 @@ h1{
     padding-top: 600px;
     font-size: 25px;
 }
+/* sub header  */
+.sub-title{
+    color: var(--head-txt);
+}
 h2{
     color: var(--small-nav-bg);
     font-weight: bold;

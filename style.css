@@ -82,7 +82,7 @@ nav ul li a.active, nav ul li a:hover{
 #check{
     display: none;
 }
-/* nav media Q */
+/* nav media Q
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -122,7 +122,7 @@ nav ul li a.active, nav ul li a:hover{
         left: 0;
     }
 
-}
+} */
 
 /*hero section*/
 .hero{
@@ -145,12 +145,12 @@ h1{
     font-weight: bold;
     font-style: italic;
     font-size: 70px;
-    padding-top:40px;    
+    padding-top:90px;    
 }
 .degree{
     color: var(--head-txt);
     font-weight: bold;
-    padding-top: 620px;
+    padding-top: 600px;
     font-size: 25px;
 }
 h2{
